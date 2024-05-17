@@ -586,6 +586,23 @@ button.white:hover,
   font-weight: 600;
 }
 
+/*single product page*/
+
+#prodetails .single-pro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 23%;
+  cursor: pointer;
+}
+
 
 @media(max-width: 799px){
   #navbar {
