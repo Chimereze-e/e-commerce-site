@@ -728,6 +728,23 @@ button.white:hover,
   color:#c5c3c0;
 }
 
+/*about page*/
+#about-toppage{
+  background-image: url(/img/about/banner.png);
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#about-toppage h2,
+#about-toppage p{
+  color: #dbd9d9;
+}
+
 @media(max-width: 799px){
   #navbar {
     display: flex;
