@@ -908,4 +908,23 @@ button.white:hover,
   width: 100%;
 }
 
+/*blog page*/
+#blogs {
+  padding: 150px 20px 0 20px;
+}
+
+#blogs .blog-post {
+  display: flex;
+  flex-direction: column;
+}
+
+#blogs .blog-img {
+  width: 100%;
+  margin-right: 0;
+}
+
+#blogs .blog-descr {
+  width: 100%;
+}
+
 }
