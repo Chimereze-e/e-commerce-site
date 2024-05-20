@@ -745,6 +745,22 @@ button.white:hover,
   color: #dbd9d9;
 }
 
+#about-us .about-descr{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+#about-us .about-descr img{
+  width: 50%;
+  height: auto;
+}
+
+#about-us .about-descr .about-text{
+  width: 50%;
+  padding: 45px;
+}
+
 @media(max-width: 799px){
   #navbar {
     display: flex;
