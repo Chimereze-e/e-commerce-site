@@ -761,6 +761,21 @@ button.white:hover,
   padding: 45px;
 }
 
+#about-app{
+  text-align: center;
+}
+
+#about-app .video{
+   width: 70%;
+   height: 100%;
+   margin: 30px auto 0 auto;
+}
+
+#about-app .video video{
+  width: 100%;
+  border-radius: 15px;
+}
+
 @media(max-width: 799px){
   #navbar {
     display: flex;
