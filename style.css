@@ -872,6 +872,26 @@ button.white:hover,
   width: 70%;
 }
 
+/*about page*/
+#about-us .about-descr {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-us .about-descr img {
+  width: 100%;
+}
+
+#about-us .about-descr .about-text {
+  width: 100%;
+  padding: 45px;
+  text-align: center;
+}
+
+#about-app .video {
+  width: 100%;
+}
+
 }
 
 @media (max-width: 477px) {
