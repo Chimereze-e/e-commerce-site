@@ -729,7 +729,8 @@ button.white:hover,
 }
 
 /*about page*/
-#about-toppage{
+#about-toppage,
+#contact-toppage{
   background-image: url(/img/about/banner.png);
   height: 40vh;
   width: 100%;
@@ -741,7 +742,9 @@ button.white:hover,
 }
 
 #about-toppage h2,
-#about-toppage p{
+#about-toppage p,
+#contact-toppage h2,
+#contact-toppage p{
   color: #dbd9d9;
 }
 
@@ -774,6 +777,19 @@ button.white:hover,
 #about-app .video video{
   width: 100%;
   border-radius: 15px;
+}
+
+/*Contact page*/
+#contact-details{
+  display: flex;
+}
+
+#contact-details .details{
+  padding: 30px 20px 15px 0 ;
+}
+
+#contact-details .details span{
+  
 }
 
 @media(max-width: 799px){
@@ -993,6 +1009,11 @@ button.white:hover,
 
 #blogs .blog-descr {
   width: 100%;
+}
+
+/*about page*/
+#about-us .about-descr .about-text {
+  padding: 0;
 }
 
 }

@@ -1,22 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sparble Clothing Prototype</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/80c61226da.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+  <body>
+    <section id="header" class="section-p1">
+      <a href="#" id="logo"><img src="/img/logo.png" alt="cara-logo" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact.html"> Contact</a></li>
+          <li>
+            <a href="cart.html" id="nav-bag"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
 
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <section id="contact-toppage" class="section-p1">
+      <h2>#let's_talk</h2>
+      <p>
+        <span style="text-transform: uppercase"> Lorem ipsum dolor sit</span>,
+        amet consectetur adipisicing elit. Facilis.
+      </p>
+    </section>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+        <span>GET IN TOUCH</span>
+        <h3>Visit one of our agency locations or contact us today</h3>
+        <h5>Head Office</h5>
+        <ul>
+          <li>
+            <i class="fa-regular fa-map"></i>
+            <p>29 Franklin road Arlingnton Kitangwa</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-envelope"></i>
+            <p>niggawhat@4q.com</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <p>(911)666-419-123</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-clock"></i>
+            <p>24/7 of 365</p>
+          </li>
+        </ul>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21533.623454718287!2d-53.579994469179645!3d47.57356810880782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b73373f77e942bd%3A0x435c8ad09adc12c!2sDildo%2C%20NL%2C%20Canada!5e0!3m2!1sen!2sng!4v1716319532490!5m2!1sen!2sng"
+          width="600"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
 
-    <body>
+    <section id="nl-signup" class="section-p1 section-m1">
+      <div class="text">
+        <h3>Sign Up for Newsletter</h3>
+        <p>
+          Get email updates about our latest shop and
+          <span>specials offer</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" id="email" placeholder="Your email address" />
+        <button>Sign up</button>
+      </div>
+    </section>
 
+    <section id="footer" class="section-p1">
+      <div class="col">
+        <img src="/img/logo.png" />
+        <h5>Contact</h5>
+        <p><span>Address:</span> 29 Franklin Street, Mainland, Lagos</p>
+        <p><span>Phone:</span> (+234)80 7534 0607</p>
+        <p><span>Hours:</span> 10:00 - 18:00, Mon - Sat</p>
+        <h5>Follow Us</h5>
+        <div>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col">
+        <h5>About</h5>
+        <p><a href="about.html">About Us</a></p>
+        <p>Delivery Information</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Condition</p>
+        <p><a href="contact.html">Contact Us</a></p>
+      </div>
 
-        <script src="script.js"></script>
+      <div class="col">
+        <h5>My Account</h5>
+        <p><a href="#">Sign In</a></p>
+        <p>View Cart</p>
+        <p>My Wishlist</p>
+        <p>Track Order</p>
+        <p>Help</p>
+      </div>
 
-    </body>
+      <div class="col install">
+        <h5>Install App</h5>
+        <p>From App Store or Google Play</p>
+        <img src="/img/pay/app.jpg" />
+        <img src="/img/pay/play.jpg" />
+        <p>Secured Payment Gateways</p>
+        <img src="/img/pay/pay.png" class="pay" />
+      </div>
 
+      <div class="copyright">
+        <p>&copy;Sparble Clothing - Ecommerce Site</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
