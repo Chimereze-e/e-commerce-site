@@ -782,16 +782,54 @@ button.white:hover,
 /*Contact page*/
 #contact-details{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #contact-details .details{
-  padding: 30px 20px 15px 0 ;
+  width: 40%;
 }
 
 #contact-details .details span{
-  
+  font-size: 12px;
 }
 
+#contact-details .details h3{
+  padding: 20px 0;
+  line-height: 35px;
+}
+
+#contact-details .details h5{
+  padding-bottom: 15px ;
+}
+
+#contact-details .details li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contact-details .details li i{
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+#contact-details .details li p{
+  font-size: 14px;
+  margin: 0;
+}
+
+#contact-details .map{
+  width: 55%;
+  height: 400px;
+}
+
+#contact-details .map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+  
 @media(max-width: 799px){
   #navbar {
     display: flex;
