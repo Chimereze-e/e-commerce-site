@@ -477,7 +477,7 @@ button.white:hover,
   border-bottom-right-radius: 0;
 }
 
-#nl-signup button{
+.normal{
   padding: 12px;
   width: 22%;
   background-color: #3c8f73;
@@ -730,7 +730,8 @@ button.white:hover,
 
 /*about page*/
 #about-toppage,
-#contact-toppage{
+#contact-toppage,
+#cart-toppage{
   background-image: url(/img/about/banner.png);
   height: 40vh;
   width: 100%;
@@ -744,7 +745,9 @@ button.white:hover,
 #about-toppage h2,
 #about-toppage p,
 #contact-toppage h2,
-#contact-toppage p{
+#contact-toppage p,
+#cart-toppage h2,
+#cart-toppage p{
   color: #dbd9d9;
 }
 
@@ -790,11 +793,13 @@ button.white:hover,
   width: 40%;
 }
 
-#contact-details .details span{
+#contact-details .details span,
+#msg-Us form span{
   font-size: 12px;
 }
 
-#contact-details .details h3{
+#contact-details .details h3,
+#msg-Us form h3{
   padding: 20px 0;
   line-height: 35px;
 }
@@ -829,6 +834,55 @@ button.white:hover,
   height: 100%;
 }
 
+#msg-Us{
+  display: flex;
+  justify-content: space-between;
+  border: 0.5px solid #e1e1e1;
+  margin: 40px;
+}
+
+#msg-Us  form{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#msg-Us form input,
+#msg-Us form textarea{
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  outline: none;
+  width: 100%;
+  border: 1px solid#e1e1e1;
+}
+
+#msg-Us form button{
+  border-radius: 4px;
+}
+
+#msg-Us .people div{
+  display: flex;
+  padding-bottom: 25px;
+}
+
+#msg-Us .people div img{
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+#msg-Us .people div p{
+  line-height: 25px;
+  font-size: 13px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#msg-Us .people div span{
+  font-weight: 700;
+}
   
 @media(max-width: 799px){
   #navbar {
@@ -946,6 +1000,17 @@ button.white:hover,
   width: 100%;
 }
 
+/*contact page*/
+
+#msg-Us {
+  padding: 25px;
+  margin: 20px;
+}
+
+#msg-Us  form {
+  width: 50%;
+}
+
 }
 
 @media (max-width: 477px) {
@@ -1052,6 +1117,31 @@ button.white:hover,
 /*about page*/
 #about-us .about-descr .about-text {
   padding: 0;
+}
+
+/*contact-page*/
+
+#contact-details {
+  flex-direction: column;
+}
+
+#contact-details .details {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#contact-details .map {
+  width: 100%;
+}
+
+#msg-Us {
+  display: flex;
+  flex-direction: column;
+}
+
+#msg-Us  form {
+  width: 100%;
+  margin-bottom: 3px;
 }
 
 }
